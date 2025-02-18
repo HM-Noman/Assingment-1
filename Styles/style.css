@@ -315,3 +315,28 @@ h2 {
 .donate-btn:hover{
   background: black;
 }
+
+/* Newsletter section */
+.newsletter {
+  font-family: Arial, sans-serif;
+  background-color: #C6E4D6;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  width: 80%;
+  margin: 30px auto;
+}
+.newsletter h2{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.newsletter p{
+  color: #0E0E0E;
+  margin-bottom: 20px;
+}
+.subscribe-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
