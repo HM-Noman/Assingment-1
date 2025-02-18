@@ -264,3 +264,54 @@ select {
   border-radius: 10px;
   margin-left: 20px;
 }
+/* Donation section */
+.donation-section{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+h2 {
+  text-align: center;
+}
+.donation-container{
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1050px;
+  margin: auto;
+}
+.donation-btn{
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: 0.3s;
+  justify-content: space-around;
+  gap: 25px;
+}
+.donation-btn:hover{
+  background-color: #C6E4D6;
+}
+.custom-amount{
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 17px;
+  text-align: center;
+  text-color: gray;
+}
+.donate-btn{
+  background-color: #006A50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.donate-btn:hover{
+  background: black;
+}
